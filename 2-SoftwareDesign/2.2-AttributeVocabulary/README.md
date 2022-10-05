@@ -18,14 +18,12 @@
       <td>1</td>
     </tr>
         <tr>
-      <td></td>
       <td>surname</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
         <tr>
-      <td></td>
       <td>phone number</td>
       <td>1</td>
       <td>1</td>
