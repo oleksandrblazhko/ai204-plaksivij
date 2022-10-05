@@ -31,118 +31,112 @@
     </tr>
         <tr>
       <td rowspan="4">Database</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-        <tr>
-      <td>1</td>
+      <td>apartment</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
   <tr>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-  <tr>
-      <td>1</td>
+      <td>owner</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
   <tr>
+      <td>relevance</td>
       <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  <tr>
+      <td>consumer</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
   <tr>
     <td rowspan="5">Owner</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-  <tr>
-      <td>1</td>
+      <td>name</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
   <tr>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-  <tr>
-      <td>1</td>
+      <td>surname</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
   <tr>
-      <td>1</td>
+      <td>apartment</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
   <tr>
-    <td rowspan="5">Owner</td>
+      <td>phone number</td>
       <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  <tr>
+      <td>age</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  <tr>
+    <td rowspan="5">Consumer</td>
+      <td>name</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>1</td>
+      <td>surname</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>1</td>
+      <td>relevance</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
     <tr>
+      <td>phone number</td>
       <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>age</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
     <tr>
       <td rowspan="4">Apartment</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-      <tr>
-      <td>1</td>
+      <td>square</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
       <tr>
-      <td>1</td>
+      <td>address</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
     </tr>
       <tr>
+      <td>floor</td>
       <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+      <tr>
+      <td>number of rooms</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
