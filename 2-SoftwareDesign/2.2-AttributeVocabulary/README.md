@@ -27,14 +27,14 @@
       <td>phone number</td>
       <td>Номер телефону</td>
       <td>текст</td>
-      <td> >9 символів</td>
+      <td> >9 <15 цифр</td>
     </tr>
         <tr>
       <td rowspan="4">Database</td>
       <td>apartment</td>
       <td>Номер квартири</td>
       <td>число</td>
-      <td> <10 символів</td>
+      <td> >0 <1000 </td>
     </tr>
   <tr>
       <td>owner</td>
@@ -71,19 +71,19 @@
       <td>apartment</td>
       <td>Номер квартири</td>
       <td>число</td>
-      <td> <10 символів</td>
+      <td> >0 <1000 </td>
     </tr>
   <tr>
       <td>phone number</td>
       <td>Номер телефону</td>
       <td>число</td>
-      <td> >9 символів</td>
+      <td> >9 <15 цифр</td>
     </tr>
   <tr>
       <td>age</td>
       <td>Вік</td>
       <td>число</td>
-      <td> <4 символи</td>
+      <td> 0> <150</td>
     </tr>
   <tr>
     <td rowspan="5">Consumer</td>
@@ -108,20 +108,20 @@
       <td>phone number</td>
       <td>Номер телефону</td>
       <td>число</td>
-      <td> >9 символів</td>
+      <td> >9 <15 цифр</td>
     </tr>
     <tr>
       <td>age</td>
       <td>Вік</td>
       <td>число</td>
-      <td> <5 символів</td>
+      <td> 0> <150</td>
     </tr>
     <tr>
       <td rowspan="4">Apartment</td>
       <td>square</td>
       <td>Площа</td>
       <td>число</td>
-      <td> <10 символів</td>
+      <td> 1> <1000 м^2</td>
     </tr>
       <tr>
       <td>address</td>
@@ -133,11 +133,11 @@
       <td>floor</td>
       <td>Поверх</td>
       <td>число</td>
-      <td> <5 символів</td>
+      <td> >0 <150</td>
     </tr>
       <tr>
       <td>number of rooms</td>
       <td>Кількість кімнат</td>
       <td>число</td>
-      <td> <5 символів</td>
+      <td> >0 <20 </td>
     </tr>
