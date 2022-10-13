@@ -49,7 +49,7 @@
       <td>FR2.1</td>
       <td>Адміністратор може отримати список квартир та їх власників, для перевірки на актуальність</td>
       <td>Relevance</td>
-      <td>getListApartmentsToCheckRelevance</td>
+      <td>getListApartmentsToCheckRelevance()</td>
     </tr>
      <tr>
       <td>FR2.2</td>
