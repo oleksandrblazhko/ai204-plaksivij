@@ -1,1 +1,12 @@
+@startuml
 
+title Cpncept Classes Diagram 
+
+Class Owner
+Class Apartment
+Class Consumer
+
+Owner"1" -- "+"Apartment: have >
+Consumer"1" -- "+"Apartment: get
+
+@enduml
