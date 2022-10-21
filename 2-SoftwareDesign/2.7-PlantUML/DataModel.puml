@@ -1,0 +1,39 @@
+@startuml
+
+title DataModel
+
+hide circle
+
+entity "Owner" as owner {
+    (PK) id_user
+    --
+    (FK) id_owner
+    id_apartment
+    age
+}
+
+entity "Apartment" as apartment {
+    (PK) id_apartment
+    --
+    (FK) id_owner
+    square
+    address
+    floor
+    number_of_rooms
+}
+
+entity "Database" as database {
+    (PK) id_database
+    --
+    (FK) id_apartment
+    (FK) id_owner
+    relevance
+    (FK) id_consumer    
+}
+
+
+owner --{ apartment
+apartment --{ database
+owner --{ database
+
+@enduml

@@ -1,0 +1,39 @@
+@startuml
+
+title UML-діаграма програмного продукту
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<Smartphone>>" as smartphone {
+	node "<<OС Android>>" {
+		component [.apk (Android studio)]
+	}
+}
+
+interface "Сенсорний екран"
+
+node "<<Сервер 1>>" as server_1 {
+	node "<<OС Linux>>" {
+		node "<<Application Server Apache Tomcat>>" {
+			component [.jar]
+		}
+	}
+}
+
+node "<<Сервер 2>>" as server_2 {
+	node "<<OС  Linux>>" {
+		node "<<Database Server PostgreSQL>>" {
+			database "Relation Database"
+		}
+	}
+}
+
+(Сенсорний екран) -- smartphone
+
+smartphone -- server_1
+
+server_1 -- server_2
+
+@enduml

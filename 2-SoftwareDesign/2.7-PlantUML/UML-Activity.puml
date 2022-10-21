@@ -1,0 +1,22 @@
+@startuml
+
+title getSortedListApartments()
+
+start
+
+if (Is the user logged in?) then (yes)
+  :Search string Output;
+  :Writing the text;
+  if (Was the text written using filters?) then (yes)
+    :Output List of Apartments using filters;
+  else (no)
+    :called getListApartments();
+  endif
+else (no)
+      :Only logged in users can search the apartments;
+endif
+
+
+stop
+
+@enduml
