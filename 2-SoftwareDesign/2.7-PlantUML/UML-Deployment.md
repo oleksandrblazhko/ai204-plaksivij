@@ -1,1 +1,1 @@
-![UML-Deployment](https://user-images.githubusercontent.com/79446137/196961702-c707906b-78ca-426d-a9af-e13f5ca7460f.png)
+![UML](https://user-images.githubusercontent.com/79446137/197178848-07b87cfd-dc11-4809-9baa-cfe2dca7c267.png)
