@@ -1,4 +1,5 @@
-Специфікація методу database.freezeAccount(int idOwner, int idApartment): <br>
+Специфікація методу програмного класу database <br>
+freezeAccount(int idOwner, int idApartment): <br>
 
 Вхідні параметри: <br>
   1) idApartment - ідентифікатор квартири (цілочисельне значення): <br>
